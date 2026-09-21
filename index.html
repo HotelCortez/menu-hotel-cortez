@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Menú de Cafetería | El Zaguán</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
+        html, body {
             margin: 0;
             padding: 0;
+            width: 100%;
             background: #004d40;
-            display: flex;
-            justify-content: center;
-            min-height: 100vh;
         }
 
-        img {
+        .menu {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu img {
             display: block;
             width: 100%;
-            max-width: 1080px;
-            height: 1620px;
+            max-width: 1396px;
+            height: auto;
         }
     </style>
 </head>
 
 <body>
 
-    <img src="menu-cafeteria.jpg" alt="Menú de Cafetería El Zaguán">
+    <div class="menu">
+        <img src="menu-cafeteria-celular.jpg" alt="Menú de Cafetería El Zaguán">
+    </div>
 
 </body>
 </html>
